@@ -1,0 +1,73 @@
+# See https://help.github.com/articles/ignoring-files/ for more about this.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (NEVER commit secrets)
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+local-*
+.claude
+.z-ai-config
+*.log
+dev.log
+dev.out.log
+server.log
+
+# Skills / agent context
+/skills/
+/worklog.md
+/scripts/
+
+# Local screenshots / dev artifacts
+shot-*.png
+shot-*.jpg
+*.audit.json
+archrevenue*.json
+portfolio.json
+goretroid.json
+img*_analysis.json
+tool-results
+test
+prompt
+upload
+examples
+db/
+mini-services/
+.zscripts/
+Caddyfile
+download/
